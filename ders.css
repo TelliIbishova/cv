@@ -1,0 +1,42 @@
+
+body{
+    background-color: blanchedalmond;
+}
+
+.boxes{
+    width: 640px;
+    height: 640px;
+    position: relative;
+}
+.box{
+    width: 120px;
+    height: 120px;
+    position:absolute;
+}
+
+.box-1{
+    top: 80px;
+    left: 80px;
+    background-color: green;
+}
+.box-2{
+    top: 80px;
+    right:80px ;
+    background-color: orange;
+}
+.box-3{
+    bottom: 80px;
+    left: 80px;
+    background-color: red;
+}
+.box-4{
+     bottom: 80px;
+     right: 80px;
+    background-color: blueviolet;
+}
+div{
+    border: 1px solid black;
+    margin: 8px;
+    padding: 8px;
+}
+
